@@ -1,0 +1,81 @@
+._wPaint_menu{padding:1px; background:#EFEFEF; border:solid #000000 2px; border-radius:5px; z-index:9800; width:390px !important; height:36px !important; -webkit-box-sizing: border-box; box-sizing: border-box; }
+._wPaint_options{float:left; padding:2px;}
+
+/*** icons ***/
+._wPaint_icon,
+._wPaint_dropDown,
+._wPaint_colorPicker{
+	position:relative; float:left; height:24px; width:24px; margin:0 2px; line-height:16px;
+	background-position:center center; background-repeat:no-repeat; cursor:pointer;
+	border-style:solid; border-width:1px; padding:3px; border-radius:5px; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+._wPaint_fontFamily, ._wPaint_fontFamily select, select:focus{width: 80px !important; outline: none;}
+
+._wPaint_lineWidth, ._wPaint_fontSize{padding:3px 0; width:24px;}
+._wPaint_lineWidth, ._wPaint_fontSize, ._wPaint_fontFamily{overflow:hidden;}
+
+._wPaint_dropDown select{
+	background-color:#EFEFEF; border:none; cursor:pointer;
+	text-align:center; width:44px; margin-left:-3px;
+}
+
+
+._wPaint_icon,
+._wPaint_dropDown,
+._wPaint_colorPicker{border-color:#999999}
+
+._wPaint_icon:hover,
+._wPaint_icon.active{border-color:#F88017; background-color:#E5E5E5;}
+
+/*** handle ***/
+._wPaint_handle{float:left; width:10px; height:30px; background: #AFAFAF; border-radius:3px 0 0 3px; cursor:pointer;}
+
+/*** text input ***/
+._wPaint_textInput{position:absolute; border:dotted #0000FF 1px; background:none; margin:0px; padding:0px; outline-width:0; word-wrap:break-word; overflow:hidden;}
+/*._wPaint_textHolder{position:absolute; border:dotted #0000FF 1px;}*/
+
+/*** color picker overwrites ***/
+._wPaint_colorPicker{padding:0px; width:24px; height:24px;}
+._wColorPicker_buttonBorder{border:none;}
+._wColorPicker_buttonColor{width:22px !important; height:22px !important; margin:0px !important;}
+._wPaint_colorPicker{float:left;}
+
+/*** vertical overwrites ***/
+._wPaint_menu_vertical ._wPaint_icon,
+._wPaint_menu_vertical ._wPaint_dropDown,
+._wPaint_menu_vertical ._wPaint_colorPicker{
+	margin:2px 0;
+}
+
+._wPaint_menu_vertical ._wPaint_handle{
+	width:30px; height:10px; border-radius:3px 3px 0 0;
+}
+
+/***********************************************************
+ * Images
+ ***********************************************************/
+._wPaint_undo.uactive{background-image: url('https://image.ibb.co/htR43w/undo.png');}
+._wPaint_undo{background-image: url('https://image.ibb.co/jUNYwG/undo_inactive.png');}
+._wPaint_redo.uactive{background-image: url('https://image.ibb.co/f36hqb/redo.png');}
+._wPaint_redo{background-image: url('https://image.ibb.co/eArFAb/redo_inactive.png');}
+._wPaint_clear{background-image: url('https://image.ibb.co/crtHOw/clear.png');}
+._wPaint_rectangle{background-image: url('https://image.ibb.co/h4EDwG/icon_rectangle.png');}
+._wPaint_ellipse{background-image: url('https://image.ibb.co/m7DvAb/icon_ellipse.png');}
+._wPaint_line{background-image: url('https://image.ibb.co/kkjriw/icon_line.png');}
+._wPaint_pencil{background-image: url('https://image.ibb.co/fcscOw/icon_pencil.png');}
+._wPaint_text{background-image: url('https://image.ibb.co/k2UfbG/icon_text.png');}
+._wPaint_fibonacci{background-image: url('https://image.ibb.co/jNOW3w/icon_fibo.png');}
+._wPaint_eraser{background-image: url('https://image.ibb.co/eSk8Vb/icon_eraser.png');}
+._wPaint_bold{background-image: url('https://image.ibb.co/hEBRGG/icon_bold.png');}
+._wPaint_italic{background-image: url('https://image.ibb.co/mdufbG/icon_italic.png');}
+._wPaint_underline{background-image: url('https://image.ibb.co/iFDTVb/icon_underline.png');}
+
+
+
+
+
+
+
+
+

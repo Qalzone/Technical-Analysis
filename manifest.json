@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Technical Analysis Tool",
+  "description": "This extension allows you to do technical analysis on any chart, anywhere",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Technical Analysis"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "background"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+		"css": ["cssUi.css", "wPaint.css", "wColorPicker.css", "style.css"],
+		"js": ["jquery.js", "jqueryUi.js", "wPaint.js", "wColorPicker.js", "content-script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["popup.js"]
+  }
+}

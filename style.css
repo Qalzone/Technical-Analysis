@@ -1,0 +1,110 @@
+#canvPlug {
+
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(219, 219, 219, 0.1);
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    z-index: 9000;
+
+}
+
+#pluss, #pluss:hover, #pluss:focus, #pluss:visited {
+
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: move;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	z-index: 1001;
+
+}
+
+._wColorPicker_buttonHolder, ._wColorPicker_buttonBorder, ._wColorPicker_buttonColor {
+
+	height: 26px !important;
+	width: 26px !important;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+._wPaint_icon {
+
+	padding: 0px;
+	height: 26px !important;
+	width: 26px !important;
+	text-align: center;
+	margin-top: -1px;
+
+}
+
+ ._wPaint_dropDown {
+ 
+	height: 28px !important;
+	width: 28px !important;
+	margin-top: -1px;
+	padding: 0px !important;
+ 
+ }
+
+._wPaint_icon, ._wPaint_handle {
+
+	box-sizing: unset;
+
+}
+
+._wPaint_handle {
+
+	height: 100%;
+
+}
+
+._wPaint_dropDown select {
+
+	margin: 5px;
+
+}
+
+._wPaint_colorPicker {
+
+	width: 28px !important;
+	height: 28px !important;
+	margin-top: -1px;
+
+}
+
+._wPaint_menu {
+
+	width: auto !important;
+
+}
+
+#OptSize23:focus, #OptSize23:visited {
+
+	padding-left: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
