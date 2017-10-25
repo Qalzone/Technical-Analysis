@@ -1,6 +1,8 @@
 # Technical-Analysis
 Universal Technical Analysis Tool
 
+The extension is a movable and resizeable canvas overlay that works on any website and enables you to free draw, draw shapes and do fibonacci retracements on chrarts.
+
 
 How to use the extension.
 
