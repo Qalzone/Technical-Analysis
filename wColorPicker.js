@@ -244,11 +244,11 @@ var opacityLevelFill = 1;
 		
 			var opacityLevel = 1;
 			
-			if ($this.parents('._wPaint_strokeColorPicker').length) {
+			if ($this.customTarget.parents('._wPaint_strokeColorPicker').length) {
 					opacityLevel = opacityLevelStroke;
 			}
 			
-			else if ($this.parents('._wPaint_fillColorPicker').length) {
+			else if ($this.customTarget.parents('._wPaint_fillColorPicker').length) {
 					opacityLevel = opacityLevelFill;
 			}
 			
