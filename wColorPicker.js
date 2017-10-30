@@ -177,11 +177,11 @@ var opacityLevelFill = 1;
     			
     			$this.colorSelect($this, colorBox);
     			
-				if ($this.parents('._wPaint_strokeColorPicker').length) {
+				if ($this.customTarget.parents('._wPaint_strokeColorPicker').length) {
 					opacityLevelStroke = $(this).val();
 				}
 				
-				else if ($this.parents('._wPaint_fillColorPicker').length) {
+				else if ($this.customTarget.parents('._wPaint_fillColorPicker').length) {
 					opacityLevelFill = $(this).val();
 				}
 			})			
