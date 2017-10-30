@@ -93,6 +93,7 @@
 #OptSize23 {
 
 	padding-left: 5px;
+	-webkit-appearance: none !important;
 
 }
 
@@ -101,13 +102,6 @@
 	width: auto !important;
 
 }
-
-select::-ms-expand {
-	
-    display: none !important;
-	
-}
-
 
 
 
