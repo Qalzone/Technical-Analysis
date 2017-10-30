@@ -139,7 +139,7 @@
 		lineWidthMin		 : '0', 				// line width min for select drop down
 		lineWidthMax		 : '10',				// line widh max for select drop down
 		lineWidth			 : '2', 				// starting line width
-		fillStyle			 : 'transparent',			// starting fill style
+		fillStyle			 : 'rgba(255,255,255,1)',			// starting fill style
 		strokeStyle			 : '#000000',			// start stroke style
 		fontSizeMin			 : '8',					// min font size in px
 		fontSizeMax			 : '20',				// max font size in px
