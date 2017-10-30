@@ -134,7 +134,6 @@ var opacityLevel = 1;
 			//setup custom area
 			var custom = 
 			$('<div class="_wColorPicker_custom"></div>')
-			.append(this.appendColors($('<div class="_wColorPicker_noColor">'), [''], 1))
 			.append(this.customTarget)
 			.append(this.customInput)
 			//clear floats
