@@ -12,9 +12,8 @@
 
 ._wPaint_fontFamily, ._wPaint_fontFamily select, select:focus{width: auto !important; outline: none;}
 
-._wPaint_fontFamily{width:auto !important;}
 
-._wPaint_lineWidth select, ._wPaint_fontSize select{margin-left:0px;}
+._wPaint_lineWidth select, ._wPaint_fontSize select{margin-left:0px !important;}
 
 ._wPaint_lineWidth, ._wPaint_fontSize{padding:3px 0; width:24px;}
 ._wPaint_lineWidth, ._wPaint_fontSize, ._wPaint_fontFamily{overflow:hidden;}
