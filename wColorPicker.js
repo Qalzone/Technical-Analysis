@@ -160,7 +160,7 @@ var opacityLevel = 1;
 			];
 			var mixedPalette = this.appendColors($('<div class="_wColorPicker_palette_mixed"></div>'), mixedColors, 18);
 			
-			this.customOpacity = $('<input class="customOpacity" type="range" value="1" max="1" min="0" step="0.01"/>').on("input", function(){
+			this.customOpacity = $('<input class="customOpacity" type="range" value="1" max="1" min="0" step="0.01"/>').on("input change", function(){
 				
 				var colorBox = $this.customTarget.css("background-color");
 				
