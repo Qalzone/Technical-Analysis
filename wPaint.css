@@ -10,7 +10,8 @@
 	border-style:solid; border-width:1px; padding:3px; border-radius:5px; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-._wPaint_fontFamily, ._wPaint_fontFamily select, select:focus{width: 80px !important; outline: none;}
+._wPaint_fontFamily, ._wPaint_fontFamily select, select:focus{width: auto !important; outline: none;}
+
 
 ._wPaint_lineWidth, ._wPaint_fontSize{padding:3px 0; width:24px;}
 ._wPaint_lineWidth, ._wPaint_fontSize, ._wPaint_fontFamily{overflow:hidden;}

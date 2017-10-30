@@ -51,7 +51,7 @@
  ._wPaint_dropDown {
  
 	height: 28px !important;
-	width: 28px !important;
+	width: 28px;
 	margin-top: -1px;
 	padding: 0px !important;
  
@@ -72,6 +72,7 @@
 ._wPaint_dropDown select {
 
 	margin: 5px;
+	margin-left: 0px;
 
 }
 
@@ -89,17 +90,19 @@
 
 }
 
-#OptSize23:focus, #OptSize23:visited {
+#OptSize23 {
 
-	padding-left: 6px;
+	padding-left: 5px;
+	-webkit-appearance: menulist-text !important;
+	-moz-appearance: menulist-text !important;
 
 }
 
+._wPaint_fontFamily {
+	
+	width: auto !important;
 
-
-
-
-
+}
 
 
 
