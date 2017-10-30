@@ -11,7 +11,8 @@
  * @version         Version 1.3.2
  *
  ******************************************/
-var opacityLevel = 1; 
+var opacityLevelStroke = 1; 
+var opacityLevelFill = 1; 
  
 (function($)
 {	
@@ -176,7 +177,13 @@ var opacityLevel = 1;
     			
     			$this.colorSelect($this, colorBox);
     			
-    			opacityLevel = $(this).val();
+				if ($this.customTarget.parents('._wPaint_strokeColorPicker').length) {
+					opacityLevelStroke = $(this).val();
+				}
+				
+				else if ($this.customTarget.parents('._wPaint_fillColorPicker').length) {
+					opacityLevelFill = $(this).val();
+				}
 			})			
 			
 			//palette container
@@ -234,8 +241,18 @@ var opacityLevel = 1;
 		
 		colorSelect: function($this, color)
 		{
-
+		
+			var opacityLevel = 1;
 			
+			if ($this.customTarget.parents('._wPaint_strokeColorPicker').length) {
+					opacityLevel = opacityLevelStroke;
+			}
+			
+			else if ($this.customTarget.parents('._wPaint_fillColorPicker').length) {
+					opacityLevel = opacityLevelFill;
+			}
+			
+			else { opacityLevel = 1; }
 				
 				if(color.indexOf('a') == -1){
    			 	color = color.replace(')', ', ' + opacityLevel + ')').replace('rgb', 'rgba');
