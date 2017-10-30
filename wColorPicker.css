@@ -10,7 +10,7 @@
 ._wColorPicker_noColor{float:left; padding-top:6px;}
 ._wColorPicker_customTarget{float:left; width:40px; height:18px; margin:0 5px 0 10px; border:solid black 1px;}
 ._wColorPicker_customInput{float:left; position:relative; width:117px; height:18px; line-height:18px; padding:0 5px; font-size:10px; font-family:arial; border: solid black 1px; color: black;}
-#customOpacity{float: left; position:relative; width:18px; height:108px; margin-left: 5px; -webkit-appearance: slider-vertical; writing-mode: bt-lr; orient="vertical";}
+.customOpacity{float: left; position:relative; width:18px; height:108px; margin-left: 5px; -webkit-appearance: slider-vertical; writing-mode: bt-lr; orient="vertical";}
 
 ._wColorPicker_palette_simple,
 ._wColorPicker_palette_mixed{float:left; line-height:0px; font-size:0px;}
