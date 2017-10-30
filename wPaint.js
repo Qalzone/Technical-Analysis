@@ -136,12 +136,12 @@
 
 	$.fn.wPaint.defaultSettings = {
 		mode				 : 'Pencil',			// drawing mode - Rectangle, Ellipse, Line, Pencil, Eraser
-		lineWidthMin		 : '0', 				// line width min for select drop down
-		lineWidthMax		 : '10',				// line widh max for select drop down
+		lineWidthMin		 : '1', 				// line width min for select drop down
+		lineWidthMax		 : '9',				// line widh max for select drop down
 		lineWidth			 : '2', 				// starting line width
 		fillStyle			 : 'rgba(255,255,255,1)',			// starting fill style
 		strokeStyle			 : '#000000',			// start stroke style
-		fontSizeMin			 : '8',					// min font size in px
+		fontSizeMin			 : '10',					// min font size in px
 		fontSizeMax			 : '20',				// max font size in px
 		fontSize			 : '12',				// current font size for text input
 		fontFamilyOptions	 : ['Arial', 'Courier', 'Times', 'Trebuchet', 'Verdana'], // available font families
