@@ -11,7 +11,7 @@
  * @version         Version 1.3.2
  *
  ******************************************/
-var opacityLevel; 
+var opacityLevel = 1; 
  
 (function($)
 {	
@@ -236,6 +236,7 @@ var opacityLevel;
 		colorSelect: function($this, color)
 		{
 
+			
 				
 				if(color.indexOf('a') == -1){
    			 	color = color.replace(')', ', ' + opacityLevel + ')').replace('rgb', 'rgba');
